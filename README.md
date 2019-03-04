@@ -35,3 +35,4 @@ Let's create a simple web component that will display the words "Hello World".
    My repository URL looks: `git remote add origin git@github.com:Halochkin/MyComponent.git`
    5. Push the changes in your local repository to GitHub. `git push origin master`
  4. Now
+ 5. 
