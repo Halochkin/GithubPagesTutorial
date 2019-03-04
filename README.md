@@ -24,4 +24,8 @@ Let's create a simple web component that will display the words "Hello World".
    3. In the page that appears, in the field with the name "Repository Name" enter the name of the future repository. 
    Let's call it "WebComponent". You can also add a description that briefly explains the essence of the project.
    4. After that, click the `Create repository` button to finish creating an **`empty`** repository.
-3. ala
+3. Open terminal ant then:
+   1. Initialize the local directory as a Git repository. To do this, put the next text to the terminal
+   `git init`
+   2. Add the files in your new local repository.   `git add .`
+   2. 
