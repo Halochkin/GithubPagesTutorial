@@ -25,7 +25,12 @@ Let's create a simple web component that will display the words "Hello World".
    Let's call it "WebComponent". You can also add a description that briefly explains the essence of the project.
    4. After that, click the `Create repository` button to finish creating an **`empty`** repository.
 3. Open terminal ant then:
-   1. Initialize the local directory as a Git repository. To do this, put the next text to the terminal
-   `git init`
-   2. Add the files in your new local repository.   `git add .`
-   2. 
+   1. Initialize the local directory as a Git repository. To do this, put the next text to the terminal. 
+   ```git init```
+   2. Add the files in your new local repository   
+   ```git add .```
+   3. Commit the files that you've staged in your local repository, you can add short description 
+   ```git commit -m "My first git commit"```
+   4. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL. 
+   My repository URL looks: ```git remote add origin git@github.com:Halochkin/MyComponent.git```
+   5. Push the changes in your local repository to GitHub. ```Push the changes in your local repository to GitHub.```
