@@ -41,5 +41,8 @@ Let's create a simple web component that will display the words "Hello World".
   so in my example's case, the URL would be [https://halochkin.github.io/MyComponent/](https://halochkin.github.io/MyComponent/). The page shown is 
   the `index.html page`.
  5. Note: Once you create a new thread, it will automatically be activated. This means that in order to update the page to "" you need to use
-  the `git push origin gh-pages` command. 
- 
+  the `git push origin gh-pages` command. To do this:
+   1. Create a new feature branch in the repository: `git branch gh-pages`
+   2. Switch to the feature branch to work on it: `git checkout gh-pages`
+   3. Push stuff to the new branch by `git push origin gh-pages`
+   4. We can back to the previous branch by `git checkout master`
