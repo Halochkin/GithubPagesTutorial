@@ -1,6 +1,6 @@
 ### How to make the `Hello World` web component on github pages
 
-Let's create a simple web component that will display the words "Hello World".
+Let's create a simple web component that will display the words "Hello World", using terminal
 
 
 ```html
