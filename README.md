@@ -27,17 +27,19 @@ Let's create a simple web component that will display the words "Hello World".
 3. Open terminal ant then:
    1. Initialize the local directory as a Git repository. To do this, put the next text to the terminal. 
    `git init`
-   2. Add the files in your new local repository   
+   2. Add the files in your new local repository. `.` mean all files.   
    ```git add .```
    3. Commit the files that you've staged in your local repository, you can add short description 
    `git commit -m "My first git commit"`
    4. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL. 
    My repository URL looks: `git remote add origin git@github.com:Halochkin/MyComponent.git`
-   5. Push the changes in your local repository to GitHub. `git push origin master`
+   5. Push the changes in your local repository to GitHub. `git push origin master`. Where `master`- the default branch name.
  4. Now you need to create a gh-pages branch of your repo; refresh the current page and you'll see a repository 
  page something like the one below. You need to press the button that says `Branch: master`, type **`gh-pages`** in the 
  text input, then press the blue button that says `Create branch: gh-pages`. This creates a special code branch 
  called gh-pages that is published at a special location. It's URL takes the form `username.github.io/my-repository-name`,
   so in my example's case, the URL would be [https://halochkin.github.io/MyComponent/](https://halochkin.github.io/MyComponent/). The page shown is 
   the `index.html page`.
+ 5. Note: Once you create a new thread, it will automatically be activated. This means that in order to update the page to "" you need to use
+  the `git push origin gh-pages` command. 
  
