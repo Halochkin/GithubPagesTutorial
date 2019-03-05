@@ -34,15 +34,13 @@ Let's create a simple web component that will display the words "Hello World", u
    4. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL. 
    My repository URL looks: `git remote add origin git@github.com:Halochkin/MyComponent.git`
    5. Push the changes in your local repository to GitHub. `git push origin master`. Where `master`- the default branch name.
- 4. Now you need to create a gh-pages branch of your repo; refresh the current page and you'll see a repository 
- page something like the one below. You need to press the button that says `Branch: master`, type **`gh-pages`** in the 
- text input, then press the blue button that says `Create branch: gh-pages`. This creates a special code branch 
- called gh-pages that is published at a special location. It's URL takes the form `username.github.io/my-repository-name`,
-  so in my example's case, the URL would be [https://halochkin.github.io/MyComponent/](https://halochkin.github.io/MyComponent/). The page shown is 
-  the `index.html page`.
- 5. Note: Once you create a new thread, it will automatically be activated. This means that in order to update the page to "" you need to use
-  the `git push origin gh-pages` command. To do this:
-   1. Create a new feature branch in the repository: `git branch gh-pages`
-   2. Switch to the feature branch to work on it: `git checkout gh-pages`
-   3. Push stuff to the new branch by `git push origin gh-pages`
-   4. We can back to the previous branch by `git checkout master`
+ 4. Now you need to create a gh-pages branch of your repo. For this:
+    1. You need to press the button that says `Branch: master`, type **`gh-pages`** in the 
+       text input, then press the blue button that says `Create branch: gh-pages`. This creates a special code branch 
+       called gh-pages that is published at a special location. It's URL takes the form `username.github.io/my-repository-name`,
+       so in my example's case, the URL would be [https://halochkin.github.io/MyComponent/](https://halochkin.github.io/MyComponent/).          The page shown is the `index.html page`.
+ 5. Note: Once you create a new thread, it will automatically be activated. This means that in order to update the page on `https://pages.github.com/` you need to do next steps in the terminal:
+    1. Create a new feature branch in the repository: `git branch gh-pages`
+    2. Switch to the feature branch to work on it: `git checkout gh-pages`
+    3. Push stuff to the new branch by `git push origin gh-pages`
+ 6. We can back to the previous branch by `git checkout master`
