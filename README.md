@@ -1,4 +1,4 @@
-### How to make the `Hello World` web component on github pages
+### How to make the `Hello World` web component on github pages, using terminal
 
 Let's create a simple web component that will display the words "Hello World", using terminal
 
@@ -44,3 +44,4 @@ Let's create a simple web component that will display the words "Hello World", u
     2. Switch to the feature branch to work on it: `git checkout gh-pages`
     3. Push stuff to the new branch by `git push origin gh-pages`
  6. We can back to the previous branch by `git checkout master`
+ 
