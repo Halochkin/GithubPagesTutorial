@@ -32,10 +32,10 @@ Let's create a simple web component that will display the words "Hello World", u
    4. At the top of your GitHub repository's Quick Setup page, click  to copy the remote repository URL. 
    My repository URL looks: `git remote add origin git@github.com:Halochkin/MyComponent.git`
    5. Push the changes in your local repository to GitHub. **`git push origin master`**. Where `master`- the default branch name.
- 5. In order to place our web component on github-pages, you need to create a special branch called `gh-pages`.<br>
+ 4. In order to place our web component on github-pages, you need to create a special branch called `gh-pages`.<br>
      For this:
     1. You need to click on the `Branch: master` button, type **`gh-pages`** in the 
-       text input, then press the blue `Create branch: gh-pages` button.<p align="center"><img src="./img/branch.PNG"></p>
+       text input, then press the blue `Create branch: gh-pages` button.
        This creates a special code branch called `gh-pages` that is published at a special location.
     2. It's URL takes the form `username.github.io/my-repository-name`, so in my example's case, the URL would be `https://halochkin.github.io/MyComponent/`.    
     
