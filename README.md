@@ -46,3 +46,7 @@ Let's create a simple web component that will display the words "Hello World", u
 >    3. Push stuff to the new branch by **`git push origin gh-pages`**
 >    4. We can back to the previous branch by **`git checkout master`**
  
+### References
+1. [Github pages](https://pages.github.com/)
+2. [About branches](https://help.github.com/en/articles/about-branches)
+3. [Our Github pages component](https://halochkin.github.io/MyComponent/)
